@@ -5,6 +5,8 @@
 
 $(document).ready(function($) {
 
+	var audio = new Audio('music/Rammstein.mp3');
+	audio.play();
 	"use strict";
 
 	$(window).stellar({
